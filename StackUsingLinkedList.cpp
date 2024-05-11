@@ -3,5 +3,10 @@ using namespace std;
 
 class Node
 {
+	int data;
+	Node* next;
 
+	Node() {
+		next = NULL;
+	}
 };
